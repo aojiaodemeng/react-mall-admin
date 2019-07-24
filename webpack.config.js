@@ -4,6 +4,8 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+
+const theme = require('./package.json').theme;
 module.exports = {
   entry: './src/app.jsx',
   output: {
@@ -14,6 +16,7 @@ module.exports = {
   resolve: {
   	alias:{
   		page:path.resolve(__dirname,'src/page'),
+  		layout:path.resolve(__dirname,'src/layout'),
 		component:path.resolve(__dirname, 'src/component'),
 	}
   },
@@ -26,7 +29,7 @@ module.exports = {
 	    use: {
 	      loader: 'babel-loader',
 	      options: {
-	        presets: ['env','react'],
+	        presets: ['env','react','stage-0'],
 		    "plugins": [
 				[
 				  "import",
@@ -59,7 +62,11 @@ module.exports = {
           test: /\.less$/,
           use: ExtractTextPlugin.extract({
           fallback: "style-loader",
-          use: ["css-loader","less-loader"]
+          use: ["css-loader",
+			  {
+			  	loader: 'less-loader', options: {modifyVars: theme}
+			  }
+		  ]
         })
       },
 	  //图片的处理
@@ -104,7 +111,7 @@ module.exports = {
   ],
 	devServer: {
   		host: 'localhost',
-  		port: 8089,
+  		port: 8099,
 		historyApiFallback: {
 			index: '/dist/index.html'
 		}

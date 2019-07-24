@@ -1,0 +1,52 @@
+//布局样式
+#layout(@name) {
+	&  when(@name=header_top){
+	  height: 40px;
+      line-height: 40px;
+	  #bg-color(white);
+	}
+    &  when(@name=header_nav){
+	  height: 100px;
+	  line-height: 100px;
+	  #bg-color(primary_color);
+	}
+}
+#layout(@name){
+	position: relative;
+}
+.contentWrap(){
+  width: calc(100% - 30px);
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right:0;
+  margin: auto;
+}
+// 背景色定义
+#bg-color(@name) {
+	& when(@name=white) {
+		background-color: #fff;
+	}
+    & when(@name=primary_color){
+		background-color: #36AA01;
+	}
+}
+//字体颜色定义
+#color(@name){
+    &  when(@name=primary_color){
+      color: #36AA01 !important;
+    }
+    &  when(@name=gray){
+      color: #949495;
+    }
+	&  when(@name=white){
+      color: #ffffff;
+    }
+}
+//字体定义
+#ft-size(@name){// 字体大小定义
+
+	& when(@name=bigTitle){
+		font-size: 22px;
+	}
+}
