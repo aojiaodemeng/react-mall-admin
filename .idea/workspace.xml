@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21b263a3-34d5-40c6-90f2-5179f3476a5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/global.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/mallAdmin/product/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/mallAdmin/product/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/mallAdmin/router.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/mallAdmin/user/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/mallAdmin/user/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/header/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/header/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header-nav/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header-nav/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/layout/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/nav-side/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/page-title/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/home/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/header-nav/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/header-nav/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/header-top/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/header-top/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/theme.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/theme.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/mallAdmin/user/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/mallAdmin/user/index.less" afterDir="false" />
     </list>
     <ignored path="D:\OwnProject\react-mall-admin\dist/js/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -32,104 +24,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/layout/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/layout/theme.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/layout/header-nav/index.jsx">
+        <entry file="file://$PROJECT_DIR$/src/layout/header/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+            <state relative-caret-position="366">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#210#770#0" />
+                <element signature="e#227#706#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/router.jsx">
+        <entry file="file://$PROJECT_DIR$/src/layout/header/index.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="-30">
+              <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#42#299#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/user/index.jsx">
+        <entry file="file://$PROJECT_DIR$/src/global.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/product/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="13" selection-end-line="18" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/product/index.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/user/index.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="30">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -159,7 +84,6 @@
         <option value="$PROJECT_DIR$/src/component/header-top/index.less" />
         <option value="$PROJECT_DIR$/src/index.less" />
         <option value="$PROJECT_DIR$/src/component/header-top/index.jsx" />
-        <option value="$PROJECT_DIR$/src/global.less" />
         <option value="$PROJECT_DIR$/src/page/mallAdmin/router.js" />
         <option value="$PROJECT_DIR$/src/page/home/index.jsx" />
         <option value="$PROJECT_DIR$/src/component/header-nav/index.jsx" />
@@ -168,12 +92,18 @@
         <option value="$PROJECT_DIR$/src/page/mallAdmin/product/index.less" />
         <option value="$PROJECT_DIR$/src/page/mallAdmin/router.jsx" />
         <option value="$PROJECT_DIR$/src/page/mallAdmin/user/index.jsx" />
-        <option value="$PROJECT_DIR$/src/page/mallAdmin/user/index.less" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/app.jsx" />
-        <option value="$PROJECT_DIR$/src/layout/index.jsx" />
+        <option value="$PROJECT_DIR$/src/page/mallAdmin/user/index.less" />
+        <option value="$PROJECT_DIR$/src/global.less" />
         <option value="$PROJECT_DIR$/src/layout/theme.less" />
         <option value="$PROJECT_DIR$/src/layout/header-nav/index.jsx" />
+        <option value="$PROJECT_DIR$/src/layout/header-nav/index.less" />
+        <option value="$PROJECT_DIR$/src/layout/header-top/index.jsx" />
+        <option value="$PROJECT_DIR$/src/layout/header-top/index.less" />
+        <option value="$PROJECT_DIR$/src/layout/index.jsx" />
+        <option value="$PROJECT_DIR$/src/layout/header/index.jsx" />
+        <option value="$PROJECT_DIR$/src/layout/header/index.less" />
       </list>
     </option>
   </component>
@@ -212,14 +142,28 @@
               <item name="react-mall-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="layout" type="462c0819:PsiDirectoryNode" />
-              <item name="header-nav" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-mall-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-mall-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-              <item name="header-top" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-mall-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-mall-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="mallAdmin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-mall-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-mall-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="mallAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -257,16 +201,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563875530756</updated>
-      <workItem from="1563875533345" duration="23208000" />
+      <workItem from="1563875533345" duration="40014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23208000" />
+    <option name="totallyTimeSpent" value="40014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2506427" />
@@ -275,8 +218,8 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32884097" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.4993573" visible="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50064266" side_tool="true" visible="true" weight="0.32884097" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -385,26 +328,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/global.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
-          <folding>
-            <element signature="e#22#357#0" />
-            <element signature="e#218#227#0" />
-            <element signature="e#148#480#0" />
-            <element signature="e#634#642#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/header-nav/index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -470,23 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/user/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/user/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -496,31 +402,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
+        <state relative-caret-position="30">
           <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layout/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layout/theme.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/layout/header-nav/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+        <state relative-caret-position="360">
+          <caret line="27" column="42" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/user/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/header-nav/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" selection-start-line="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/user/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/theme.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/global.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/header/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+          <folding>
+            <element signature="e#42#299#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/header/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#210#770#0" />
+            <element signature="e#227#706#0" />
           </folding>
         </state>
       </provider>

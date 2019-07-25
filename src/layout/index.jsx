@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 
-import HeaderTop from './header-top/index.jsx';
-import HeaderNav from './header-nav/index.jsx';
+import Header from './header/index.jsx';
+// import HeaderNav from './header-nav/index.jsx';
 import './theme.less';
 class Layout extends Component{
 	constructor(props){
@@ -10,8 +10,8 @@ class Layout extends Component{
 	render(){
 		return(
 			<div id="wrapper">
-                <HeaderTop />
-                <HeaderNav />
+                <Header />
+
 				{this.props.children}
 			</div>
 		);

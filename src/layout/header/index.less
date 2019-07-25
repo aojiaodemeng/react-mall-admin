@@ -1,0 +1,105 @@
+@import './../../global.less';
+.header-top{
+  #layout(header_top);
+  .topContent{
+    .contentWrap();
+    #color(gray);
+    display: flex;
+    justify-content: space-between;
+    .light{
+      #color(primary_color);
+      margin-left: 10px;
+    }
+    .loginBtn{
+      margin-right: 20px;
+    }
+  }
+}
+
+
+
+
+//nav
+.header-nav{
+  width: 100%;
+  #layout(header_nav);
+  position: absolute;
+  top: 40px;
+  z-index: 999;
+  transition: height .4s;
+}
+.navContent{
+  .contentWrap();
+  #color(white);
+  display: flex;
+  justify-content: space-between;
+}
+ul.ant-menu-horizontal.big{
+  line-height: 95px;
+}
+ul.ant-menu-horizontal.small{
+  line-height: 46px;
+}
+ul.ant-menu-horizontal{
+  display: flex;
+  transition: line-height .4s;
+  #ft-size(bigTitle);
+  .ant-menu-item,
+  .ant-menu-submenu{
+    #bg-color(primary_color);
+    #color(white);
+    //height:calc(100%);
+    .ant-menu-submenu-title{
+      height: 100%;
+    }
+  }
+  .ant-menu-item{
+    //line-height: 95px;
+    a{
+      #color(white);
+    }
+  }
+  .ant-menu-submenu-active{
+    #bg-color(white);
+  }
+  //标题被选中的样式
+  .ant-menu-item-selected,
+  .ant-menu-item-selected a,
+  .ant-menu-submenu-selected{
+    #bg-color(white);
+    #color(primary_color);
+  }
+  .ant-menu-item-selected a{
+    //line-height: 90px;
+  }
+
+  //icon图标
+  .ant-menu-item .anticon,
+  .ant-menu-submenu-title .anticon{
+    #ft-size(bigTitle);
+  }
+}
+//ul.ant-menu-horizontal{
+//  border:none;
+//  //line-height: inherit!important;
+//  .ant-menu-item,
+//  .ant-menu-submenu{
+//    #bg-color(primary_color);
+//    #color(white);
+//    height:calc(100%);
+//    .ant-menu-submenu-title{
+//      height: 100%;
+//    }
+//  }
+//
+//  .ant-menu-submenu-title .submenu-title-wrapper{
+//    //display: inline-block;
+//    //height: 100%;
+//    //vertical-align: middle !important;
+//  }
+
+
+.clear{
+  height: 100px;
+  transition: height .4s;
+}
