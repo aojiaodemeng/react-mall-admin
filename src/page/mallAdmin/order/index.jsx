@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import './index.less';
 import {connect} from "react-redux";
-import {actionCreators } from './store/index.jsx';
+// import {actionCreators } from './store/index.jsx';
 import { Table,Pagination } from 'antd';
-class MallAdminUser extends Component{
+class MallAdminOrder extends Component{
     constructor(props){
         super(props);
         this.state={
@@ -45,14 +45,14 @@ class MallAdminUser extends Component{
     ];
     data=[];
     componentDidMount(){
-        this.props.getUserList(this.state.pageNum,this.state.pageSize);
+        // this.props.getUserList(this.state.pageNum,this.state.pageSize);
     }
     onPageNumChange = (pageNumber) => {
-        this.setState({
-            pageNum:pageNumber
-        },()=>{
-            this.props.getUserList(this.state.pageNum,this.state.pageSize);
-        })
+        // this.setState({
+        //     pageNum:pageNumber
+        // },()=>{
+        //     this.props.getUserList(this.state.pageNum,this.state.pageSize);
+        // })
     }
     render(){
         return (
@@ -67,8 +67,8 @@ const mapStateToProps = (state) => ({
     userList: state.getIn(['user','userList'])
 })
 const mapDispatchToProps = (dispatch) => ({
-    getUserList(pageNum,pageSize){
-        dispatch(actionCreators.getUserList(pageNum,pageSize))
-    }
+    // getUserList(pageNum,pageSize){
+    //     dispatch(actionCreators.getUserList(pageNum,pageSize))
+    // }
 })
-export default connect(mapStateToProps,mapDispatchToProps)(MallAdminUser);
+export default connect(mapStateToProps,mapDispatchToProps)(MallAdminOrder);

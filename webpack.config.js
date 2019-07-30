@@ -18,6 +18,8 @@ module.exports = {
   		page:path.resolve(__dirname,'src/page'),
   		layout:path.resolve(__dirname,'src/layout'),
 		component:path.resolve(__dirname, 'src/component'),
+		store:path.resolve(__dirname, 'src/store'),
+		util:path.resolve(__dirname, 'src/util'),
 	}
   },
   module: {
@@ -45,9 +47,27 @@ module.exports = {
 	  	//css的处理
 	  {
 	  	test: /\.css$/,
+	    exclude: /node_modules|antd\.css/,
 	  	use: ExtractTextPlugin.extract({
 	  		fallback:'style-loader',
-	  		use:'css-loader'
+			// use: "css-loader"
+	  		use: [
+			  { loader:"css-loader?modules&localIdentName=styles__[local]__[hash:base64:5]",
+			  	// options:{
+			  	// 	modules:{
+			  	// 		localIdentName: '[path][name]__[local]--[hash:base64:5]',
+				// 	},
+				// }
+			  }
+		  ]
+	  	})
+	  },
+	  {
+	  	test: /\.css$/,
+	    include: /node_modules|antd\.css/,
+	  	use: ExtractTextPlugin.extract({
+	  		fallback:'style-loader',
+	  		use: "css-loader"
 	  	})
 	  },
 	   //scss的处理
@@ -58,17 +78,40 @@ module.exports = {
 	  		use:['css-loader','sass-loader']
 	  	})
 	  },
+		//这里开启自己编写的less文件的css modules功能，除了node_modules库中的less
+		//也就是可以过滤掉antd库中的样式
 		{
           test: /\.less$/,
+		  exclude: /node_modules/,
           use: ExtractTextPlugin.extract({
           fallback: "style-loader",
-          use: ["css-loader",
+          use: [
+			  { loader:"css-loader?modules&localIdentName=styles__[local]__[hash:base64:5]",
+			  	// options:{
+			  	// 	modules:{
+			  	// 		localIdentName: '[path][name]__[local]--[hash:base64:5]',
+				// 	},
+				// }
+			  },
 			  {
 			  	loader: 'less-loader', options: {modifyVars: theme}
 			  }
 		  ]
         })
       },
+		//less的处理，需要加入node_modules里面的样式，并且不开启css modules功能
+		{
+          test: /\.less$/,
+          include: /node_modules/,
+          use: ExtractTextPlugin.extract({
+			  fallback: "style-loader",
+			  use: ["css-loader",
+				  {
+					loader: 'less-loader', options: {modifyVars: theme}
+				  }
+			  ]
+          })
+        },
 	  //图片的处理
 	  {
         test: /\.(png|jpe?g|gif)$/,
@@ -114,6 +157,16 @@ module.exports = {
   		port: 8099,
 		historyApiFallback: {
 			index: '/dist/index.html'
+		},
+		proxy:{
+		  '/manage' : {
+			  target: 'http://admintest.happymmall.com',
+			  changeOrigin : true
+		  },
+		  '/user/logout.do' : {
+			  target: 'http://admintest.happymmall.com',
+			  changeOrigin : true
+		  }
 		}
 	}
 };

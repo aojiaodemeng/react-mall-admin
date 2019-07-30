@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import './index.less';
+// import './index.less';
 class MallAdminProduct extends Component{
     constructor(props){
         super(props);

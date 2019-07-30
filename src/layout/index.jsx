@@ -1,8 +1,6 @@
 import React,{Component} from 'react';
-
 import Header from './header/index.jsx';
-// import HeaderNav from './header-nav/index.jsx';
-import './theme.less';
+import styles from './theme.less';
 class Layout extends Component{
 	constructor(props){
 		super(props);
@@ -11,8 +9,10 @@ class Layout extends Component{
 		return(
 			<div id="wrapper">
                 <Header />
+				<div className={styles.contentWrap}>
+					{this.props.children}
+				</div>
 
-				{this.props.children}
 			</div>
 		);
 	}

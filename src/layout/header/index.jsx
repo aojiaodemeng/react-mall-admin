@@ -1,17 +1,25 @@
 import React,{Component} from 'react';
 import { Link }     from 'react-router-dom';
 import {DatePicker, Button, Menu, Icon} from 'antd';
-import './index.less';
+import MUtil from 'util/mm.jsx';
+import styles from './index.less';
+import {connect} from "react-redux";
+
+const _mm = new MUtil();
 const { SubMenu } = Menu;
 class HeaderTop extends Component{
     constructor(props){
         super(props);
         this.state={
             current: 'home',
-            lineHeight: "big"
+            lineHeight: "big",
+            username: _mm.getStorage('userInfo').username
         }
     }
-    handleClick = e => {
+    componentDidMount(){
+        this.handleScroll();
+	}
+	handleMenuClick = e => {
         this.setState({
           current: e.key,
         });
@@ -41,28 +49,46 @@ class HeaderTop extends Component{
         })
 
     }
-    componentDidMount(){
-        this.handleScroll();
-	}
+	loginOut = () => {
+        _mm.request({
+            type:'post',
+            url:'/user/logout.do'
+        }).then(res=>{
+            _mm.removeStorage('userInfo');
+            window.location.href='/';
+        })
+    }
     render(){
         return(
             <div>
-                <div className="header-top" ref="headerTop">
-                    <div className="topContent">
-                        <div className="left">
-                            <span>您好，欢迎光临</span>
-                            <Link to="/" className="light">React Mall Admin</Link>
+                <div className={styles.top} ref="headerTop">
+                    <div className={styles.contentWrap}>
+                        <div>
+                            {
+                                this.state.username ?
+                                <span className={styles.light}>{this.state.username}，</span> :
+                                <span className={styles.light}></span>
+                            }
+                            <span className={styles.gray}>您好，</span>
+                            <span>欢迎</span>
+                            <Link to="/" className={styles.light}>React Mall Admin</Link>
                         </div>
-                        <div className="right">
-                            <span className="loginBtn">登录</span>
-                            <span>注册</span>
+                        <div>
+                            {
+                                this.state.username ?
+                                <Button
+                                    onClick = {this.loginOut}
+                                    size="small"
+                                >退出</Button> :
+                                <Link to="/login" className="gray">登录</Link>
+                            }
                         </div>
                     </div>
 
                 </div>
-                <div className="header-nav" ref="headerNav">
-                    <div className="navContent">
-                        <Menu className={this.state.lineHeight} onClick={this.handleClick} selectedKeys={[this.state.current]} mode="horizontal">
+                <div className={styles.nav} ref="headerNav">
+                    <div className={styles.contentWrap}>
+                        <Menu className={this.state.lineHeight} onClick={this.handleMenuClick} selectedKeys={[this.state.current]} mode="horizontal">
                             <Menu.Item key="home">
                                 <Link to="/">
                                     <Icon type="home" />
@@ -71,7 +97,7 @@ class HeaderTop extends Component{
                             </Menu.Item>
                             <SubMenu
                               title={
-                                <span className="submenu-title-wrapper">
+                                <span>
                                   <Icon type="inbox" />
                                   电商后台
                                 </span>
@@ -79,18 +105,24 @@ class HeaderTop extends Component{
                             >
                                 <Menu.Item key="mallAdmin:4">数据总览</Menu.Item>
                                 <Menu.Item key="mallAdmin:product"><Link to="/mallAdmin/product">商品管理</Link></Menu.Item>
-                                <Menu.Item key="mallAdmin:2">订单管理</Menu.Item>
+                                <Menu.Item key="mallAdmin:order"><Link to="/mallAdmin/order">订单管理</Link></Menu.Item>
                                 <Menu.Item key="mallAdmin:user"><Link to="/mallAdmin/user">用户管理</Link></Menu.Item>
                             </SubMenu>
                         </Menu>
                     </div>
 
                 </div>
-                <div className="clear" ref="clear">
+                <div className={styles.clear} ref="clear">
 
                 </div>
             </div>
         )
     }
 }
-export default HeaderTop;
+const mapStateToProps = (state) => ({
+
+})
+const mapDispatchToProps = (dispatch) => ({
+
+})
+export default connect(mapStateToProps,mapDispatchToProps)(HeaderTop);
