@@ -50,17 +50,8 @@ module.exports = {
 	    exclude: /node_modules|antd\.css/,
 	  	use: ExtractTextPlugin.extract({
 	  		fallback:'style-loader',
-			// use: "css-loader"
-	  		use: [
-			  { loader:"css-loader?modules&localIdentName=styles__[local]__[hash:base64:5]",
-			  	// options:{
-			  	// 	modules:{
-			  	// 		localIdentName: '[path][name]__[local]--[hash:base64:5]',
-				// 	},
-				// }
-			  }
-		  ]
-	  	})
+			use: "css-loader?modules&localIdentName=styles__[local]__[hash:base64:5]"
+	  	}),
 	  },
 	  {
 	  	test: /\.css$/,
@@ -85,14 +76,7 @@ module.exports = {
 		  exclude: /node_modules/,
           use: ExtractTextPlugin.extract({
           fallback: "style-loader",
-          use: [
-			  { loader:"css-loader?modules&localIdentName=styles__[local]__[hash:base64:5]",
-			  	// options:{
-			  	// 	modules:{
-			  	// 		localIdentName: '[path][name]__[local]--[hash:base64:5]',
-				// 	},
-				// }
-			  },
+          use: ["css-loader?modules&localIdentName=styles__[local]__[hash:base64:5]",
 			  {
 			  	loader: 'less-loader', options: {modifyVars: theme}
 			  }

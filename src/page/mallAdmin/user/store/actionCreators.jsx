@@ -8,7 +8,6 @@ const changeUserList = (data) => ({
     value:data
 })
 export const getUserList = (pageNum,pageSize) => {
-
     return (dispatch)=>{
         _mm.request({
             type:'post',

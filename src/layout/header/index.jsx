@@ -84,7 +84,6 @@ class HeaderTop extends Component{
                             }
                         </div>
                     </div>
-
                 </div>
                 <div className={styles.nav} ref="headerNav">
                     <div className={styles.contentWrap}>
@@ -110,7 +109,6 @@ class HeaderTop extends Component{
                             </SubMenu>
                         </Menu>
                     </div>
-
                 </div>
                 <div className={styles.clear} ref="clear">
 

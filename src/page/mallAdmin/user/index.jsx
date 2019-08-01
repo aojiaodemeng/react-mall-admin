@@ -7,7 +7,7 @@ class MallAdminUser extends Component{
     constructor(props){
         super(props);
         this.state={
-            pageNum:3,
+            pageNum:1,
             pageSize:8,
             userList:[],
             total:500
