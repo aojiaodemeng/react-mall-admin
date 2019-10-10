@@ -102,7 +102,7 @@ class HeaderTop extends Component{
                                 </span>
                               }
                             >
-                                <Menu.Item key="mallAdmin:4">数据总览</Menu.Item>
+                                <Menu.Item key="mallAdmin:index"><Link to="/mallAdmin/index">数据总览</Link></Menu.Item>
                                 <Menu.Item key="mallAdmin:product"><Link to="/mallAdmin/product">商品管理</Link></Menu.Item>
                                 <Menu.Item key="mallAdmin:order"><Link to="/mallAdmin/order">订单管理</Link></Menu.Item>
                                 <Menu.Item key="mallAdmin:user"><Link to="/mallAdmin/user">用户管理</Link></Menu.Item>

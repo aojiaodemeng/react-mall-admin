@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21b263a3-34d5-40c6-90f2-5179f3476a5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/page/mallAdmin/order/detail/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/mallAdmin/order/detail/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/mallAdmin/product/store/actionCreators.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/mallAdmin/product/store/constants.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/mallAdmin/product/store/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/mallAdmin/product/store/reducer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/header/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/header/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/theme.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/theme.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/mallAdmin/order/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/mallAdmin/order/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/mallAdmin/order/store/actionCreators.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/mallAdmin/order/store/actionCreators.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/mallAdmin/order/store/constants.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/mallAdmin/order/store/constants.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/mallAdmin/order/store/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/mallAdmin/order/store/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/mallAdmin/order/store/reducer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/mallAdmin/order/store/reducer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/mallAdmin/router.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/mallAdmin/router.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/mallAdmin/user/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/mallAdmin/user/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/mallAdmin/user/store/actionCreators.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/mallAdmin/user/store/actionCreators.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/mallAdmin/product/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/mallAdmin/product/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/reducer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <ignored path="D:\OwnProject\react-mall-admin\dist/js/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -29,38 +20,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/order/detail/index.jsx">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/product/store/reducer.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+            <state relative-caret-position="90">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
-                <element signature="e#557#1585#0" />
-                <element signature="e#565#945#0" />
-                <element signature="e#1647#1784#0" />
-                <element signature="e#1847#1888#0" />
-                <element signature="e#2479#3284#0" />
-                <element signature="e#3571#4348#0" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/product/index.jsx">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/reducer.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="240">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/order/detail/index.less">
+        <entry file="file://$PROJECT_DIR$/src/util/mm.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+            <state relative-caret-position="30">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="n#!!block;n#request#0;n#MUtil#0" />
+                <element signature="n#!!block;n#request_notForm#0;n#MUtil#0" />
+                <element signature="n#!!block;n#setStorage#0;n#MUtil#0" />
+                <element signature="n#!!block;n#getStorage#0;n#MUtil#0" />
+                <element signature="n#!!block;n#removeStorage#0;n#MUtil#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/product/store/actionCreators.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="45" selection-start-column="45" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -68,8 +73,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/order/store/actionCreators.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+            <state relative-caret-position="900">
+              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/order/store/reducer.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="39" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="39" />
+            <state>
+              <caret selection-end-line="15" selection-end-column="1" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -89,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/order/store/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state>
+              <caret selection-end-line="4" selection-end-column="46" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -99,37 +107,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/order/index.less">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/layout/header/index.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1890">
-              <caret line="90" selection-start-line="90" selection-end-line="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/order/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+            <state relative-caret-position="60">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-                <element signature="e#454#1833#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/order/store/constants.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -149,9 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/component/nav-top/index.less" />
-        <option value="$PROJECT_DIR$/src/component/header/index.jsx" />
         <option value="$PROJECT_DIR$/src/component/nav-side/index.jsx" />
         <option value="$PROJECT_DIR$/src/component/nav-top/index.jsx" />
         <option value="$PROJECT_DIR$/src/component/layout/index.jsx" />
@@ -179,7 +160,6 @@
         <option value="$PROJECT_DIR$/src/util/mm.jsx" />
         <option value="$PROJECT_DIR$/src/page/mallAdmin/user/index.less" />
         <option value="$PROJECT_DIR$/src/global.less" />
-        <option value="$PROJECT_DIR$/src/page/mallAdmin/product/index.jsx" />
         <option value="$PROJECT_DIR$/src/app.jsx" />
         <option value="$PROJECT_DIR$/src/index.less" />
         <option value="$PROJECT_DIR$/src/page/login/index.less" />
@@ -189,7 +169,6 @@
         <option value="$PROJECT_DIR$/src/layout/header/index.less" />
         <option value="$PROJECT_DIR$/src/layout/header/index.jsx" />
         <option value="$PROJECT_DIR$/src/page/mallAdmin/order/store/index.jsx" />
-        <option value="$PROJECT_DIR$/src/store/reducer.jsx" />
         <option value="$PROJECT_DIR$/src/page/mallAdmin/user/index.jsx" />
         <option value="$PROJECT_DIR$/src/page/mallAdmin/user/store/actionCreators.jsx" />
         <option value="$PROJECT_DIR$/src/layout/theme.less" />
@@ -200,10 +179,15 @@
         <option value="$PROJECT_DIR$/src/page/mallAdmin/order/detail/index.jsx" />
         <option value="$PROJECT_DIR$/src/page/mallAdmin/order/store/actionCreators.jsx" />
         <option value="$PROJECT_DIR$/src/page/mallAdmin/order/index.jsx" />
+        <option value="$PROJECT_DIR$/src/page/mallAdmin/product/index.jsx" />
+        <option value="$PROJECT_DIR$/src/page/mallAdmin/product/store/index.jsx" />
+        <option value="$PROJECT_DIR$/src/page/mallAdmin/product/store/actionCreators.jsx" />
+        <option value="$PROJECT_DIR$/src/page/mallAdmin/product/store/reducer.jsx" />
+        <option value="$PROJECT_DIR$/src/store/reducer.jsx" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="147" />
     <option name="y" value="23" />
     <option name="width" value="1260" />
@@ -266,6 +250,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
               <item name="mallAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-mall-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-mall-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="mallAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-mall-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-mall-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="mallAdmin" type="462c0819:PsiDirectoryNode" />
               <item name="product" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -274,7 +275,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
               <item name="mallAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-mall-admin" type="b2602c69:ProjectViewProjectNode" />
@@ -298,7 +300,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-admin-rosen" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my-project" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -331,7 +333,12 @@
       <option name="presentableId" value="Default" />
       <updated>1563875530756</updated>
       <workItem from="1563875533345" duration="75293000" />
-      <workItem from="1564365057248" duration="46751000" />
+      <workItem from="1564365057248" duration="50660000" />
+      <workItem from="1564993527136" duration="6221000" />
+      <workItem from="1565770623357" duration="1201000" />
+      <workItem from="1566806934228" duration="722000" />
+      <workItem from="1567067925141" duration="592000" />
+      <workItem from="1567158182317" duration="606000" />
     </task>
     <task id="LOCAL-00001" summary="header部分样式完善">
       <created>1564032421092</created>
@@ -347,17 +354,23 @@
       <option name="project" value="LOCAL" />
       <updated>1564465697228</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="订单管理页面完成">
+      <created>1564628592438</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564628592438</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122044000" />
+    <option name="totallyTimeSpent" value="135295000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="147" y="23" width="1260" height="640" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15167095" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -409,7 +422,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="header部分样式完善" />
     <MESSAGE value="css_module配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="css_module配置" />
+    <MESSAGE value="订单管理页面完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="订单管理页面完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -421,23 +435,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/page/login/store/index.jsx</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/page/mallAdmin/order/detail/index.jsx</url>
           <line>86</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/component/header-top/index.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/component/header-top/index.less" />
-    <entry file="file://$PROJECT_DIR$/src/layout/header-nav/index.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/layout/header-nav/index.less" />
     <entry file="file://$PROJECT_DIR$/src/redux/action/index.jsx" />
     <entry file="file://$PROJECT_DIR$/src/redux/store/configStore.jsx" />
     <entry file="file://$PROJECT_DIR$/src/redux/reducer/index.jsx" />
@@ -491,19 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/mm.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="n#!!block;n#setStorage#0;n#MUtil#0" />
-            <element signature="n#!!block;n#getStorage#0;n#MUtil#0" />
-            <element signature="n#!!block;n#removeStorage#0;n#MUtil#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -581,32 +576,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/user/store/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducer.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -711,9 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/order/index.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/order/detail/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -737,26 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/order/store/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/order/store/reducer.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/order/store/constants.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -764,28 +716,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/product/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3150">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/product/store/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/product/store/constants.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/order/index.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/product/store/reducer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/mm.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!block;n#request#0;n#MUtil#0" />
+            <element signature="n#!!block;n#request_notForm#0;n#MUtil#0" />
+            <element signature="n#!!block;n#setStorage#0;n#MUtil#0" />
+            <element signature="n#!!block;n#getStorage#0;n#MUtil#0" />
+            <element signature="n#!!block;n#removeStorage#0;n#MUtil#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/product/store/actionCreators.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/order/store/actionCreators.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        <state relative-caret-position="900">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/order/store/reducer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/order/store/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/order/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        <state relative-caret-position="60">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#454#1833#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/mallAdmin/product/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>

@@ -5,8 +5,7 @@ class Home extends Component{
     }
     render(){
         return (
-            <div>HOme
-                <a href="">787</a>
+            <div>Home
             </div>
         )
     }
